@@ -68,5 +68,3 @@ def get_search_id(token):
        
        
        
-if __name__=='__main__':
-  app.run(debug=True)
