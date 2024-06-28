@@ -1,1 +1,1 @@
-web: python clipme.py
+web: python app.py
