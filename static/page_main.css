@@ -1,0 +1,23 @@
+
+#nav_one{
+ color: black;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 400;
+}
+
+#textinput{
+width: 100%  ;
+height: 80%  ;
+border-style: dashed;
+resize: none;
+
+}
+
+.comment{
+  padding-top: 0.5cm;
+
+}
+.button_1{
+   position:absolute ;
+   right:0px ;
+}
