@@ -11,8 +11,8 @@ def secure():
 link=os.getenv('url')
 
 client = MongoClient(link, server_api=ServerApi('1'))
-mydb = client["mydatabase"]
-mycol = mydb["customers"]
+mydb = client["clipme"]
+mycol = mydb["data"]
 app=fk(__name__,template_folder="templates")
 result=''
 @app.route('/')
